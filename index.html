@@ -4,240 +4,268 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Intelligence.Creditcard – Risk Engines, Scoring & Card Analytics</title>
-  <meta name="description"
-        content="Intelligence.creditcard explores risk engines, fraud models, credit scoring, portfolio analytics and AI decisioning behind modern credit cards." />
+  <title>Intelligence.Creditcard – Payment Intelligence & Card Decisioning</title>
+  <meta name="description" content="Understand how payment intelligence, risk scoring, transaction analysis and issuer decisioning shape modern credit card approvals and authorisations." />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://intelligence.creditcard/" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Intelligence.Creditcard – Risk & Scoring for Cards" />
-  <meta property="og:description"
-        content="Deep dive into risk models, fraud detection, portfolio analytics and AI decisioning for card issuers." />
+  <meta property="og:title" content="Intelligence.Creditcard – Payment Intelligence & Decisioning Explained" />
+  <meta property="og:description" content="Learn how intelligence layers guide authorisations, fraud checks, routing and cardholder experiences across modern credit card systems." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://intelligence.creditcard/" />
-  <meta property="og:image" content="https://intelligence.creditcard/preview.png" />
+  <meta property="og:image" content="https://choose.creditcard/preview.png?utm_source=intelligence.creditcard&utm_medium=referral&utm_campaign=og_image" />
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="/styles.css" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Intelligence.Creditcard – Payment & Risk Intelligence Explained" />
+  <meta name="twitter:description" content="Independent explanation of decision engines, risk analytics, transaction intelligence and card network scoring." />
+  <meta name="twitter:image" content="https://choose.creditcard/preview.png?utm_source=intelligence.creditcard&utm_medium=referral&utm_campaign=twitter_image" />
 
   <!-- GA4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-64FE63JQ3H"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config','G-64FE63JQ3H');
+    gtag('config', 'G-64FE63JQ3H');
   </script>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body class="bg-slate-950 text-slate-100">
-
-  <!-- HEADER – samme CC-header som de andre -->
-  <header class="site-header">
-    <div class="nav-inner max-w-6xl">
-      <div class="brand">
-        <div class="cc-logo">CC</div>
-        <div class="brand-text">
-          <span class="brand-title">Intelligence.creditcard</span>
-          <span class="brand-subtitle">Risk · Scoring · Analytics · AI</span>
-        </div>
+<header class="site-header">
+  <div class="nav-inner max-w-6xl">
+    <div class="brand">
+      <div class="cc-logo">CC</div>
+      <div class="brand-text">
+        <div class="brand-title">Intelligence.Creditcard</div>
+        <div class="brand-subtitle">Payment Intelligence & Card Decisioning</div>
       </div>
-      <nav class="nav-links">
-        <a href="https://fin.creditcard/?utm_source=intelligence.creditcard&utm_medium=nav&utm_campaign=collection">
-          Collection
-        </a>
-        <a href="https://payai.creditcard/?utm_source=intelligence.creditcard&utm_medium=nav&utm_campaign=payai">
-          PayAI
-        </a>
-        <a href="https://aipay.creditcard/?utm_source=intelligence.creditcard&utm_medium=nav&utm_campaign=aipay">
-          AIPay
-        </a>
-        <a href="https://choose.creditcard/?utm_source=intelligence.creditcard&utm_medium=nav&utm_campaign=choose">
-          Choose
-        </a>
-      </nav>
     </div>
-  </header>
 
-  <main class="cc-page">
-    <p class="cc-breadcrumb">Intelligence.creditcard · Risk · Scoring · Analytics</p>
+    <nav class="nav-links">
+      <a href="#overview">Overview</a>
+      <a href="#mechanics">How It Works</a>
+      <a href="#compare">Compare</a>
+    </nav>
+  </div>
+</header>
 
-    <!-- HERO -->
-    <section class="hero">
-      <h1>Intelligence for Cards &amp; Payments</h1>
+<main class="cc-page">
+
+  <!-- Breadcrumb -->
+  <div class="cc-breadcrumb">
+    <a href="https://choose.creditcard/?utm_source=intelligence.creditcard&utm_medium=referral&utm_campaign=breadcrumb">
+      Home
+    </a>
+    &nbsp;›&nbsp;
+    Intelligence.Creditcard
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>How Intelligence Drives Modern Credit Card Decisions</h1>
       <p class="hero-lead">
-        The risk engines, models and analytics behind every approval, decline and alert.
+        Intelligence.Creditcard explains the hidden decision engines behind authorisations, fraud checks, routing choices
+        and credit evaluations — the layers that determine whether a transaction glides through or faces extra scrutiny.
       </p>
-      <a class="cta"
-         href="https://choose.creditcard/?utm_source=intelligence.creditcard&utm_medium=referral&utm_campaign=intelligence_top">
-        See User-Facing Card Products
+      <a class="cta" href="https://choose.creditcard/?utm_source=intelligence.creditcard&utm_medium=referral&utm_campaign=hero_cta">
+        Visit the Comparison hub
       </a>
-    </section>
+    </div>
+  </section>
 
-    <!-- What is “card intelligence”? -->
-    <section class="section">
-      <h2>What is “card intelligence”?</h2>
-      <p class="small">
-        Card intelligence is the layer of models, rules and analytics that drives every key decision:
-        who to approve, which limit to set, what to flag as fraud and which users to retain.
-      </p>
-      <ul class="list">
-        <li>Credit risk scoring and limit strategies</li>
-        <li>Real-time fraud and abuse detection</li>
-        <li>Portfolio analytics and stress testing</li>
-        <li>Marketing and offer targeting</li>
-        <li>Collections, churn and lifetime value models</li>
-      </ul>
-    </section>
+  <!-- SECTION 1 -->
+  <section id="overview" class="section">
+    <h2>What Is “Payment Intelligence”?</h2>
+    <p>
+      Payment intelligence refers to the analytics, scoring models and behavioural data that card networks and issuers
+      use to evaluate each transaction. Instead of relying on static rules, modern systems analyse patterns: spending
+      habits, merchant categories, device history, location signals and authorisation consistency.
+    </p>
+    <p>
+      This intelligence helps issuers identify legitimate activity, detect anomalies early and improve approval rates
+      without increasing fraud losses. Most of it happens invisibly in the background within milliseconds.
+    </p>
+  </section>
 
-    <!-- Decision stack -->
-    <section class="section">
-      <h2>The decision stack for card issuers</h2>
-      <div class="cluster-grid">
-        <div class="cluster-card">
-          <h3>Onboarding &amp; KYC</h3>
-          <p class="small">
-            Identity checks, device data and first-pass credit models decide if an application continues.
-          </p>
-        </div>
-        <div class="cluster-card">
-          <h3>Underwriting</h3>
-          <p class="small">
-            Probability-of-default models, income estimates and policy rules set approval and pricing.
-          </p>
-        </div>
-        <div class="cluster-card">
-          <h3>Authorisation</h3>
-          <p class="small">
-            Real-time models score each transaction in milliseconds and decide approve / decline / challenge.
-          </p>
-        </div>
-        <div class="cluster-card">
-          <h3>Portfolio steering</h3>
-          <p class="small">
-            Limit changes, line management and offers keep risk in target bands as the portfolio grows.
-          </p>
-        </div>
-        <div class="cluster-card">
-          <h3>Collections &amp; recovery</h3>
-          <p class="small">
-            Behavioural models predict who will self-cure, who needs outreach and which strategy to use.
-          </p>
-        </div>
-        <div class="cluster-card">
-          <h3>Profitability &amp; LTV</h3>
-          <p class="small">
-            Intelligence combines risk, revenue and cost to model long-term value per segment or user.
-          </p>
-        </div>
-      </div>
-    </section>
+  <!-- SECTION 2 -->
+  <section id="mechanics" class="section">
+    <h2>How Decision Engines Work During Authorisation</h2>
+    <p>
+      When a credit card is used, the issuer runs the transaction through a layered decision engine. It combines credit
+      line availability with risk scores, device intelligence, merchant data and behavioural analysis to approve or
+      decline in real time.
+    </p>
+    <p>
+      Some systems use machine-learning models that continuously adapt based on new patterns — reducing false declines,
+      adjusting velocity limits and improving fraud detection over time.
+    </p>
+  </section>
 
-    <!-- Key model types -->
-    <section class="section">
-      <h2>Key model types in card intelligence</h2>
-      <div class="table-wrap">
-        <table class="table">
-          <thead>
-          <tr>
-            <th>Model type</th>
-            <th>Used for</th>
-            <th>Typical signals</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td>Credit scoring</td>
-            <td>Approvals &amp; limits</td>
-            <td>Income, bureau data, history, utilisation</td>
-          </tr>
-          <tr>
-            <td>Fraud / anomaly</td>
-            <td>Blocking bad transactions</td>
-            <td>Device, location, merchant, velocity, patterns</td>
-          </tr>
-          <tr>
-            <td>Propensity &amp; offer</td>
-            <td>Upgrades, cross-sell</td>
-            <td>Spend categories, product mix, engagement</td>
-          </tr>
-          <tr>
-            <td>Churn &amp; retention</td>
-            <td>Save actions</td>
-            <td>Activity decline, complaints, competitive signals</td>
-          </tr>
-          <tr>
-            <td>Collections</td>
-            <td>Contact strategy</td>
-            <td>Payment history, balance trends, macro indices</td>
-          </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
+  <!-- SECTION 3 -->
+  <section class="section">
+    <h2>Intelligence Used in Everyday Cardholder Interactions</h2>
+    <p>
+      Card apps increasingly rely on intelligence to personalise alerts, monitor unusual spending and recommend safer
+      payment methods. For example, an issuer may suggest enabling virtual cards for high-risk merchants or prompt a
+      step-up authentication if your location changes unexpectedly.
+    </p>
+    <p>
+      Even credit line adjustments and repayment suggestions can be influenced by automated intelligence models that
+      react to spending consistency, repayment behaviour and changes in income signals.
+    </p>
+  </section>
 
-    <!-- Governance -->
-    <section class="section">
-      <h2>Governance, fairness &amp; regulation</h2>
-      <p class="small">
-        Intelligence for cards is heavily regulated and must be explainable, auditable and fair:
-      </p>
-      <ul class="list">
-        <li>Clear policies for data sources and feature usage</li>
-        <li>Documentation of model purpose and limitations</li>
-        <li>Monitoring for drift, bias and stability over time</li>
-        <li>Human override for critical customer decisions</li>
-        <li>Compliance with local credit and AML rules</li>
-      </ul>
-    </section>
+  <!-- SECTION 4 -->
+  <section class="section">
+    <h2>Network Intelligence and Routing Logic</h2>
+    <p>
+      Card networks also apply their own intelligence layers. They evaluate merchant category, country, device, token
+      information and historical performance to determine the safest and most efficient routing path.
+    </p>
+    <p>
+      These models help manage fraud globally while keeping transaction approval rates high — a key factor in cardholder
+      satisfaction and merchant acceptance.
+    </p>
+  </section>
 
-    <!-- Namespace links -->
-    <section class="section">
-      <h2>The AI &amp; intelligence domain cluster</h2>
-      <p class="small">Explore related domains in The CreditCard Collection:</p>
-      <div class="cluster-grid">
-        <a class="cluster-card"
-           href="https://payai.creditcard/?utm_source=intelligence.creditcard&utm_medium=referral&utm_campaign=payai">
-          <h3>PayAI.creditcard</h3>
-          <p class="small">AI across the payment flow and card lifecycle.</p>
-        </a>
-        <a class="cluster-card"
-           href="https://aipay.creditcard/?utm_source=intelligence.creditcard&utm_medium=referral&utm_campaign=aipay">
-          <h3>AIPay.creditcard</h3>
-          <p class="small">Product-focused view of AI-powered cards.</p>
-        </a>
-        <a class="cluster-card"
-           href="https://tech.creditcard/?utm_source=intelligence.creditcard&utm_medium=referral&utm_campaign=tech_ai_fraud">
-          <h3>Tech.Creditcard · AI &amp; fraud</h3>
-          <p class="small">Device signals, fraud models and real-time scoring.</p>
-        </a>
-      </div>
-    </section>
+  <!-- TABLE -->
+  <section id="compare" class="section">
+    <h2>Comparing Different Intelligence Models</h2>
 
-    <!-- CTA bottom -->
-    <section class="section">
-      <h2>From models to user experience</h2>
-      <p class="small">
-        Intelligence.creditcard focuses on the issuer side.<br />
-        To see how this translates into benefits, fees and perks for end-users:
-      </p>
-      <a class="cta"
-         href="https://choose.creditcard/?utm_source=intelligence.creditcard&utm_medium=referral&utm_campaign=intelligence_bottom">
-        Compare Cards on Choose.Creditcard
+    <div class="table-wrap">
+      <table class="table">
+        <thead>
+        <tr>
+          <th>Intelligence Area</th>
+          <th>What to Look For</th>
+          <th>Why It Matters</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+          <td>Risk Scoring</td>
+          <td>Adaptive models, strong device recognition</td>
+          <td>Reduces false declines and improves approval consistency.</td>
+        </tr>
+        <tr>
+          <td>Behavioural Analysis</td>
+          <td>Detection of unusual spending or login patterns</td>
+          <td>Identifies account takeovers earlier.</td>
+        </tr>
+        <tr>
+          <td>Credit Decisioning</td>
+          <td>Transparent rules for limit changes and approvals</td>
+          <td>Impacts long-term card usability and trust.</td>
+        </tr>
+        <tr>
+          <td>Network Intelligence</td>
+          <td>Reliable merchant risk assessment</td>
+          <td>Affects routing and international approval rates.</td>
+        </tr>
+        <tr>
+          <td>Data Privacy</td>
+          <td>Clear policies, limited retention, protected signals</td>
+          <td>Keeps personal and behavioural data safe.</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="small">
+      For broader card comparisons and deeper guides, visit
+      <a href="https://choose.creditcard/?utm_source=intelligence.creditcard&utm_medium=referral&utm_campaign=comparison_section">
+        Choose.Creditcard
+      </a>.
+    </p>
+  </section>
+
+  <!-- CLUSTER -->
+  <section class="section">
+    <h2>Explore Related Payment Technologies</h2>
+
+    <div class="cluster-grid">
+      <a class="cluster-card"
+         href="https://bitcoinpay.creditcard/?utm_source=intelligence.creditcard&utm_medium=referral&utm_campaign=cluster_bitcoinpay">
+        <h3>BitcoinPay.Creditcard</h3>
+        <p>How crypto-backed card transactions settle and route.</p>
       </a>
-    </section>
-  </main>
 
-  <!-- MINI FOOTER -->
-  <footer class="mini-footer">
-    <p class="mini-footer-main">
-      © 2025 The CreditCard Collection — ronarn AS
+      <a class="cluster-card"
+         href="https://btcpay.creditcard/?utm_source=intelligence.creditcard&utm_medium=referral&utm_campaign=cluster_btcpay">
+        <h3>BTCPay.Creditcard</h3>
+        <p>Merchant-side crypto acceptance and risk routing.</p>
+      </a>
+
+      <a class="cluster-card"
+         href="https://tokens.creditcard/?utm_source=intelligence.creditcard&utm_medium=referral&utm_campaign=cluster_tokens">
+        <h3>Tokens.Creditcard</h3>
+        <p>Tokenized incentives and digital asset decisioning.</p>
+      </a>
+
+      <a class="cluster-card"
+         href="https://defipay.creditcard/?utm_source=intelligence.creditcard&utm_medium=referral&utm_campaign=cluster_defipay">
+        <h3>DefiPay.Creditcard</h3>
+        <p>DeFi-linked card products and automated routing.</p>
+      </a>
+
+      <a class="cluster-card"
+         href="https://virtualpay.creditcard/?utm_source=intelligence.creditcard&utm_medium=referral&utm_campaign=cluster_virtualpay">
+        <h3>VirtualPay.Creditcard</h3>
+        <p>Virtual numbers, tokens and secure checkout flows.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- COLLECTION -->
+  <section class="section">
+    <h2>Part of The CreditCard Collection</h2>
+
+    <p class="small">
+      Intelligence.Creditcard is part of <strong>The CreditCard Collection</strong> — a network of independent microsites operated by ronarn AS. Each page covers one concept clearly, using documentation-first explanations.
     </p>
-    <p class="mini-footer-contact">
-      Contact: <a href="mailto:support@cc.creditcard">support@cc.creditcard</a>
+
+    <p class="small">
+      This site focuses on payment intelligence, risk analytics and decision engines. It does not issue cards or provide personalised recommendations.
     </p>
-  </footer>
+
+    <!-- ROOT SNIPPET -->
+    <div class="hub-link">
+      <a href="https://choose.creditcard/?utm_source=intelligence.creditcard&utm_medium=referral&utm_campaign=minisite_to_hub"
+         class="text-sm text-slate-600 hover:text-slate-900">
+        Learn more at the Comparison hub
+      </a>
+    </div>
+  </section>
+
+  <!-- BOTTOM CTA -->
+  <section class="section">
+    <h2>Ready for More Card Insights?</h2>
+    <p class="small">
+      Use Intelligence.Creditcard to learn how decisions are made behind the scenes — then move to the main hub for full comparisons across rewards, fees, technology and protections.
+    </p>
+    <a class="cta"
+       href="https://choose.creditcard/?utm_source=intelligence.creditcard&utm_medium=referral&utm_campaign=bottom_cta">
+      Go to Choose.Creditcard
+    </a>
+  </section>
+
+</main>
+
+<footer class="mini-footer">
+  <p class="mini-footer-main">© 2025 The CreditCard Collection — ronarn AS</p>
+  <p class="mini-footer-contact">
+    Contact: <a href="mailto:support@cc.creditcard">support@cc.creditcard</a>
+  </p>
+</footer>
 
 </body>
 </html>
